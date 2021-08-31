@@ -15,7 +15,7 @@
     <title>Bookmark Landing</title>
   </head>
 
-  <body class="font-Inter">
+  <body class="font-Inter overflow-x-hidden">
     <!-- Header -->
     <header>
       <nav class="container flex items-center py-4 mt-4 sm:mt-12">
@@ -38,7 +38,10 @@
           <li class="cursor-pointer">
             <a href="#features"> Features </a>
           </li>
-          <li class="cursor-pointer"><a href="#pricing"></a></li>
+          <li class="cursor-pointer">
+            <a href="#pricing">Pricing</a>
+          </li>
+
           <li class="cursor-pointer"><a href="#contact">Contact</a></li>
           <button type="button" class="bg-bookmark-red text-white rounded-md py-3 px-7 uppercase">
             Login
@@ -331,8 +334,37 @@
             <a href="#" class="text-bookmark-purple font-medium underline -">email us</a>.
           </p>
         </div>
-        <!-- Questions -->
+        <!-- FAQ Items -->
+        <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">How can I request a new browser?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">Is there a mobile app?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What about other Chromium browsers?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <button
+            type="button"
+            class="mt-12 flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black"
+          >
+            More Info
+          </button>
+        </div>
       </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-bookmark-purple text-white py-20">
+      <div class="container"></div>
     </section>
   </body>
 </html>
